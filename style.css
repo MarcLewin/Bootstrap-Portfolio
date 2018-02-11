@@ -1,0 +1,14 @@
+/* the css file for bootstrap portfolio page */
+
+.navbar-header{
+    background: green;
+}
+
+.footer{
+        color: white;
+        background-color: rgb(100, 113, 116);
+        text-align: center;
+        width:100%;
+        margin-left: 50px;
+        margin-right: 50px;
+}

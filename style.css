@@ -63,6 +63,28 @@
         position: absolute; bottom: 0px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 980px) {
+    .r{ 
+        background-color: #4aaaa5; 
+        width: 54%;
+        z-index: 1;
+        position: absolute; bottom: 0px;
+        color:white;
+        text-align: center;
+        padding: 5px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .r{ 
+        background-color: #4aaaa5; 
+        width: 50%;
+        z-index: 1;
+        position: absolute; bottom: 0px;
+        color:white;
+        text-align: center;
+        padding: 5px;
+    }
 
 }

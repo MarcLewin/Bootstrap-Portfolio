@@ -35,13 +35,14 @@
 
 #exampleInputPassword2{
     height:400px;
+    clear: both;
 }
 
 /* portfolio css */
 
 .r{ 
     background-color: #4aaaa5; 
-    width: 62%;
+    width: 52%;
     z-index: 1;
     position: absolute; bottom: 0px;
     color:white;
@@ -60,4 +61,8 @@
         margin-left: 50px;
         margin-right: 50px;
         position: absolute; bottom: 0px;
+}
+
+@media screen and (max-width: 640px) {
+
 }

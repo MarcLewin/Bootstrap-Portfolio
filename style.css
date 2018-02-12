@@ -1,14 +1,61 @@
 /* the css file for bootstrap portfolio page */
 
 .navbar-header{
-    background: green;
+    background: rgb(75,168,164);
+
+}
+.navbar-brand{
+    color:white;
+}
+.navbar{
+    color:white;
 }
 
+.page-header{
+    border: 1px;
+    border-right: 10px;
+    background-color: #4aaaa5;
+    width:200px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+}
+
+
+
+.linked{
+    float: left;
+
+}
+
+.github{
+    float: left;
+
+}
+/* contact page css */
+
+#exampleInputPassword2{
+    height:400px;
+}
+
+/* portfolio css */
+
+.col-xs-2{ 
+    background-color: #4aaaa5; 
+    width: 60%;
+    z-index: 1;
+    position: absolute; bottom: 0px;
+    color:white;
+}
+.col-xs-8{
+    z-index:0;
+}
 .footer{
+    clear: both;
         color: white;
         background-color: rgb(100, 113, 116);
         text-align: center;
-        width:100%;
+        width:100%px;
         margin-left: 50px;
         margin-right: 50px;
+        position: absolute; bottom: 0px;
 }

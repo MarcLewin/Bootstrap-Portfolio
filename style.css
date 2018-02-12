@@ -39,12 +39,14 @@
 
 /* portfolio css */
 
-.col-xs-2{ 
+.r{ 
     background-color: #4aaaa5; 
-    width: 60%;
+    width: 62%;
     z-index: 1;
     position: absolute; bottom: 0px;
     color:white;
+    text-align: center;
+    padding: 5px;
 }
 .col-xs-8{
     z-index:0;
